@@ -1,0 +1,25 @@
+{
+  "name": "moviedb-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "expect": "^23.6.0",
+    "express": "^4.16.3",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.15",
+    "request": "^2.88.0",
+    "supertest": "^3.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha server/**/*.test.js"
+  },
+  "author": "Maciej Sawicki",
+  "license": "ISC"
+}
